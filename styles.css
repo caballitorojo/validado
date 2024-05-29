@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+}
+
+.nav{
+width: 100%;
+height:100px;
+background: #0e0b0b;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 25px;
+}
+
+.logo {
+  width: auto;
+  display: inline-block;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin: 70px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+ }
+
+.menu li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+  padding: 30px 10px;
+  background: #7438ac;
+  color: black;
+  border-radius: 15px;
+}
+
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ .foto0 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Imagenes/16paginaUNO.jpg);
+  background-size: cover;
+  background-position: center;
+ }
+ 
+.foto1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Imagenes/13dragon.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+
+  .textoENfoto1 {
+    color: rgb(242, 236, 236);
+    text-align: center;
+    text-decoration: solid;
+    width: auto;
+    font-family: 'Special Elite', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    position: relative;
+    top: 90px;  
+  }
+
+.foto2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Imagenes/14cciaficc.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.textoENfoto2 {
+  color: rgb(242, 236, 236);
+  text-align: center;
+  text-decoration: solid;
+  width: auto;
+  font-family: 'Special Elite', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  position: relative;
+  top: 170px;  
+  left: 400px;
+}
+
+.foto3 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Imagenes/15realismo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.textoENfoto3 {
+  color: rgb(100, 130, 206);
+  text-align: center;
+  text-decoration: solid;
+  width: auto;
+  font-family: 'Special Elite', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  position: relative;
+  top: 250px;  
+ }
+
+.boton {
+  color:whitesmoke;
+  position: relative;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(76, 54, 174);
+  border-radius: 15px;
+  border: rgb(83, 22, 137) solid 3px;
+  font-weight: bolder;
+}
+
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.pie-pagina{
+  background-color: black;
+}
+
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:20px;
+  padding: 5px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: auto;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .bloque h2{
+  color: whitesmoke;
+  font-family: "Special Elite", Georgia;
+  margin-bottom: 15px;
+  font-size: 20px;
+
+}
+
+.pie-pagina .grupo-1 .bloque p{
+  font-family: "Special Elite", Georgia;
+  color: whitesmoke;
+  margin-bottom: 1px; 
+  font-size: 14px; 
+}
+
+
+.fa-brands{
+  border-radius: 100px;
+  color: whitesmoke;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 10px;
+
+}
+
+
+.fa-brands:hover {
+  color: #F1FADA;
+}
+
+.pie-pagina .grupo-2{
+  background-color: #222d52;
+  padding: 10px ;
+  text-align: center;
+  color: #fff;
+}
+
+.pie-pagina .grupo-1 .contacto {
+  background-color: black;
+  text-align: left; 
+  color: whitesmoke;
+  padding: 10px 3px;
+
+}
+
+.pie-pagina .grupo-1 .contacto h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .pie-pagina .grupo-1 {
+      grid-template-columns: 1fr; 
+  }
+  
+  .fa-brands {
+      font-size: 24px; 
+  }
+  
+  .pie-pagina .grupo-1 .contacto {
+      text-align: center; 
+  }
+}

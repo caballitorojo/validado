@@ -1,0 +1,309 @@
+@import "https://fonts.googleapis.com/css2?family=Special+Elite&display=swap";
+
+@font-face {
+  font-family: "Special Elite";
+  src: url("assets/SpecialElite-Regular.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  background-color: black;
+}
+
+.nav{
+width: 100%;
+height:100px;
+background: #0e0b0b;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 25px;
+}
+
+.logo {
+  width: auto;
+  display: inline-block;
+}
+
+.menu{
+  display: flex;
+}
+
+
+.menu li {
+  list-style: none;
+  margin: 70px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+ }
+
+.menu li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+  padding: 30px 10px;
+  background: #7438ac;
+  color: black;
+  border-radius: 15px;
+}
+
+body {
+  font-family: Special+Elite, 'Courier New', Georgia, monospace;
+  min-height: 100vw;
+}
+
+main {
+  min-height: 250px;
+  overflow: auto;
+}
+
+
+main > div {
+  width: 100%;
+  margin: 0.5rem;
+  height: 3em;
+  float: left;
+}
+
+
+  #titulo-genero {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    border: 3px rgb(34, 203, 245) solid;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler;
+    font-weight: 500;
+    word-spacing: 10px;
+    }  
+
+
+.genero {
+  display: grid;
+  grid-template-rows: repeat(4 1fr);
+}
+
+article {
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.libro1{
+  background-color:#E7DFDD;
+}
+.libro2{
+  background-color: #0E0816;
+  color: rgb(197, 206, 214);
+}
+.libro3{
+  background-color:#E7DFDD;
+}
+.libro4{
+background-color:#0E0816;
+color: aliceblue;
+}
+
+img {
+  float: left;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 200%;
+  font-family: 'Special+Elite', Georgia;  
+}
+
+h3 {
+ font-size:150% ;
+ font-family: 'Special+Elite', Georgia;  
+ }
+
+p {
+  font-weight: 500;
+  font-family: Cambria, Georgia;  
+  font-size: 130%;
+  text-align: justify;
+  padding: 50px 50px 30px 35px;
+}
+
+
+button {
+  font-size: 150%;
+}
+
+  .button_slide {
+    color: #5f5a5a;
+    border: 3px solid rgb(52, 8, 154);
+    border-radius: 10px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #3415ae;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+  .slide_diagonal:hover {
+      box-shadow: inset 400px 50px 0 0 #0b76cd;
+  }
+
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+
+
+.secciones {
+  border: 2px grey solid;
+  min-height: 50px;
+  margin: 0.5rem;
+}
+
+.article {
+  border: 2px purple solid;
+  margin: 0.5rem;
+}
+
+
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.pie-pagina{
+  background-color: black;
+}
+
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:20px;
+  padding: 5px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: auto;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .bloque h2{
+  color: whitesmoke;
+  font-family: "Special Elite", Georgia;
+  margin-bottom: 15px;
+  font-size: 20px;
+
+  /*BORDE PARA BORRAR*/
+  border: rgb(17, 234, 71)  solid 20px;
+}
+
+.pie-pagina .grupo-1 .bloque p{
+  font-family: "Special Elite", Georgia;
+  color: whitesmoke;
+  margin-bottom: 1px; 
+  font-size: 14px; 
+
+   /*BORDE PARA BORRAR*/
+  border: red  solid 20px;
+}
+
+
+.fa-brands{
+  border-radius: 100px;
+  color: whitesmoke;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 10px;
+
+   /*BORDE PARA BORRAR*/
+  border: rgb(235, 229, 236)  solid 20px;
+}
+
+
+.fa-brands:hover {
+  color: #F1FADA;
+}
+
+.pie-pagina .grupo-2{
+  background-color: #222d52;
+  padding: 10px ;
+  text-align: center;
+  color: #fff;
+}
+
+.pie-pagina .grupo-1 .contacto {
+  background-color: black;
+  text-align: left; 
+  color: whitesmoke;
+  padding: 10px 3px;
+
+   /*BORDE PARA BORRAR*/
+  border: violet  solid 20px;
+}
+
+.pie-pagina .grupo-1 .contacto h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* DANA FIJATE SI ESTO ES NECESARIO O YA ESTA CUBIERTO CON EL RESPONSIVE DE MAS ABAJO*/
+@media screen and (max-width: 768px) {
+  .pie-pagina .grupo-1 {
+      grid-template-columns: 1fr; 
+  }
+  
+  .fa-brands {
+      font-size: 24px; 
+  }
+  
+  .pie-pagina .grupo-1 .contacto {
+      text-align: center; 
+  }
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px){
+ body { grid-template-columns: 1fr;
+}
+}
+
+@media only screen and (min-width: 768px){
+body { grid: template columns 2fr; 
+};
+}
+
+@media only screen and (min-width: 1200px){
+body { grid-template-columns: 2fr;
+}
+}
+
+
+  
